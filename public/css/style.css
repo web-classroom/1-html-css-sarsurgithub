@@ -8,6 +8,111 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+p {
 	margin: 0;
+}
+
+body#app-container {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#playlist {
+	display: flex;
+	flex-direction:column;
+}
+#playlist-title {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 60px;
+	padding: 8px 0px 8px 0px;
+}
+
+.song {
+	display: flex;
+	flex-direction: column;
+}
+
+#queue {
+	position: relative;
+	background-color: #F3F4F6;
+	padding: 2rem;
+	width: 20.625rem;
+	flex-shrink: 0;
+}
+#playlist-info {
+	display:flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding-bottom: 48px ;
+}
+.title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+main#playlist {
+	padding: 86px;
+	padding-bottom: 0;
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+.container {
+	display:flex;
+	flex-direction: row;
+}
+
+.playlist-img {
+	height: 250px;
+	width: 250px;
+	margin-right: 32px;
+}
+
+/* footer */
+
+#player {
+	display:flex;
+	flex-direction: row;
+	height: 80px;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+	border-top: 1px solid #E5E7EB;
+}
+
+#player > .footer {
+	flex: 1;
+	display: flex;
+}
+
+.player-buttons {
+	align-self:center;
+}
+
+#player > .footer-song {
+	display: flex;
+	flex-direction: row;
+}
+
+#player > .current-song-img{
+	height:100%;
+}
+.copyright{
+	align-content: end;
+	display: flex;
+	flex-direction: column;
+}
+#deezer img {
+	height:100%;
 }
