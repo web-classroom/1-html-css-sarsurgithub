@@ -8,15 +8,41 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p {
 	margin: 0;
+}
+
+:root {
+	--gray-100: #F3F4F6;
+	--gray-200: #E5E7EB;
+	--gray-400: #9CA3AF;
 }
 
 body#app-container {
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
-	line-height: 1.5;
+	line-height: 24px;
 }
+
+.title {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.subtitle {
+	font-weight: bold;
+}
+
+.text-small {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+
+
 
 ul {
   list-style-type: none;
@@ -27,9 +53,7 @@ ul {
 	flex-direction:column;
 }
 #playlist-title {
-	font-size: 48px;
-	font-weight: bold;
-	line-height: 60px;
+
 	padding: 8px 0px 8px 0px;
 }
 
