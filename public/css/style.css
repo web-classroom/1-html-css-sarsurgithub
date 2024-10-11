@@ -109,20 +109,20 @@ main#playlist {
 	width: 330px;
 	border-left:1px solid var(--gray-200);
 
-	span {
-		color: var(--gray-400);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		flex-grow: 1;
-	}
+}
 
-	p {
-		position: absolute;
-		padding: 32px;
-	}
+#queue > 	span {
+	color: var(--gray-400);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 1;
+}
 
+#queue > 	p {
+	position: absolute;
+	padding: 32px;
 }
 
 /* footer */
@@ -137,13 +137,14 @@ main#playlist {
   width: 100%;
   background-color: white;
 	border-top: 1px solid var(--gray-200);
-	.footer {
-		flex: 1;
-		display:flex;
-	}
+
 
 }
 
+.footer {
+	flex: 1;
+	display:flex;
+}
 
 #footer-song {
 	flex-direction: row;
@@ -152,32 +153,34 @@ main#playlist {
 		align-content: center;
 	}
 
-	img {
-		padding-right: 16px;
-	}
+}
+
+#footer-song > 	img {
+	padding-right: 16px;
 }
 
 #footer-buttons {
 	justify-content: center;
 	gap: 32px;
 	align-content: center;
-	img {
-		
-		height: 40px;
-	}
+
+}
+
+#footer-buttons > 	img {
+	height: 40px;
 }
 
 #copyright{
 	justify-content: flex-end;
-
-	#logo{
-		display:flex;
-		flex-direction: column;
-		padding-right: 16px;
-		align-items: start;
-	
-		img {
-			height: 32px;
-		}
 	}
+
+#logo{
+	display:flex;
+	flex-direction: column;
+	padding-right: 16px;
+	align-items: start;
+}
+
+#logo > img {
+		height: 32px;
 }
